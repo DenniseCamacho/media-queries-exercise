@@ -1,29 +1,5 @@
-body{
-    background-color:white;
-}
-main{
-    font-family: sans-serif;
-}
-/*following MR JAVIER :D. added everything below this*/
-
-
 
 @media screen and (max-width:800px){
-<<<<<<< HEAD
-    .header-img{
-        object-fit: 100%;
-    }
-.nav-links{
-    display: flex;
-    flex-direction: column;
-}
-ul{
-    padding-left: 0;
-}
-li {
-    list-style: none;
-}
-=======
     .alert-info {
         display: inline-block;
         background-color: #c5f6f7;
@@ -57,7 +33,6 @@ li {
     li {
         list-style: none;
     }
->>>>>>> 72043e5e4e5042a6019355888befb78298d851c1
 
     li a{
         display: inline-block;
@@ -66,6 +41,3 @@ li {
         padding: 1em;
         width: 100%;
         text-align: center;
-}
-}
-/*added everything above this */
