@@ -9,24 +9,47 @@ main{
 
 
 @media screen and (max-width:800px){
-.nav-links{
-    display: flex;
-    flex-direction: column;
-}
-ul{
-    padding-left: 0;
-}
-li {
-    list-style: none;
-}
+    .alert-info {
+        display: inline-block;
+        background-color: #c5f6f7;
+        margin-bottom: 1em;
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+        border: 3px solid lightgray;
 
-li a{
-    display: inline-block;
-    background: lightgray;
-    margin-bottom: 1em;
-    padding: 1em;
-    width: 100%;
-    text-align: center;
+    }
+    .alert-info a{
+        text-decoration: none;
+    }
+    .header-img {
+        max-width:100%;
+        width: 100%;
+        height:auto;
+        max-height:100%;
+        object-fit: none;
+    }
+    img {
+        width: 100%;
+    }
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+    }
+    ul{
+        padding-left: 0;
+    }
+    li {
+        list-style: none;
+    }
+
+    li a{
+        display: inline-block;
+        background: lightgray;
+        margin-bottom: 1em;
+        padding: 1em;
+        width: 100%;
+        text-align: center;
 }
 }
 /*added everything above this */
