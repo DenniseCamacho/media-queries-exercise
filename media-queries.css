@@ -1,7 +1,11 @@
 body{
-    background-color:pink;
+    background-color:white;
 }
 /*following MR JAVIER :D. added everything below this*/
+
+
+
+@media screen and (max-width:800px){
 .nav-links{
     display: flex;
     flex-direction: column;
@@ -11,5 +15,15 @@ ul{
 }
 li {
     list-style: none;
+}
+
+li a{
+    display: inline-block;
+    background: lightgray;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+}
 }
 /*added everything above this */
