@@ -71,10 +71,11 @@ li {
 
 }
 
-@media screen and(min-width: 701px) {
+@media screen and (min-width: 701px) {
     .alert-info {
     visibility: hidden;
     }
+
     main{
         display: flex;
         flex-wrap: wrap;
