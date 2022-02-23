@@ -80,21 +80,59 @@ li {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        position: absolute;
         width: 100%;
     }
-    .inline-heading{
+    main .inline-heading{
+        display: flex;
+    }
+    nav {
+        /*display: flex;*/
+        /*flex-grow: 1;*/
+        justify-content: space-between;
+    }
+    li a {
         display: inline-block;
+        padding: 1em;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .inline-heading h1{
+        flex-grow: 1;
+        align-self: center;
+        margin: auto;
 
     }
 
     .nav-links {
         display: flex;
         width: 100%;
-        margin: 0 auto;
+        /*margin: 0 auto;*/
         padding: 0;
-        text-align: center;
-        justify-content: flex-end;
-        align-items: center;
+        /*justify-content: center;*/
+        /*justify-items: center;*/
+        /*align-items: center;*/
+        /*align-content: center;*/
+    }
+    .nav-links a {
+        justify-items: center;
+    }
+    article {
+        display: flex;
+    }
+    article #main {
+        display: flex;
+        flex-direction: column;
+
+        flex-grow: 3;
+        background-color: red;
+    }
+    #main {
+        /*flex-grow: 2;*/
+    }
+    .sub-section {
+        flex-shrink: 1;
     }
 
 }
