@@ -1,6 +1,9 @@
 body{
     background-color:pink;
 }
+main{
+    font-family: sans-serif;
+}
 /*following MR JAVIER :D. added everything below this*/
 .nav-links{
     display: flex;
